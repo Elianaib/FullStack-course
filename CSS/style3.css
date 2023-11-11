@@ -1,0 +1,30 @@
+body{
+    background-color: #386f42;
+    background-image: url(../images/me.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+p{
+    background-color: lightblue;
+    opacity : 1;
+    color:brown;
+    text-decoration-line : overline;
+    text-decoration-color:white ;
+    text-decoration-style:wavy;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
+    text-indent:55px;
+    letter-spacing:3px;
+    word-spacing:5px;
+}
+h2{
+    color:royalblue;
+    background-color: aqua;
+    text-align: center;
+}
+h3{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}

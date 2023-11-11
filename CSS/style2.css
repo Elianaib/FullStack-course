@@ -1,0 +1,8 @@
+p{
+    border-style:dotted dashed ;
+    border-width: 3px ;
+    border-color: red;
+    border-radius:8px;
+    margin:100px;
+    padding : 75px;
+}

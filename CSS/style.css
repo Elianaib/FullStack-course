@@ -1,0 +1,19 @@
+*{
+    font-size: small;
+}
+
+h3 {color: white; font-size: x-large;}
+body{
+    background-color: royalblue;
+}
+
+#special{
+    color: pink;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container{color:white; background-color: black;}
+h2,h5,h6{
+    color:chartreuse;
+}
+

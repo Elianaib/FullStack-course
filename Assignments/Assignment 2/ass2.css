@@ -1,0 +1,84 @@
+body{
+  background-image: linear-gradient(to right, red, blue);
+  border-radius: 4px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center; 
+  align-items: stretch; 
+  padding: 80px; 
+}
+
+.container {
+  display: flex;
+ background-color: white;
+ border-radius: 3px;
+}
+
+.sign_in {
+  flex: 1;
+  background-color: orange ;
+  color: white;
+  padding: 20px;
+}
+
+
+.disp {
+  flex: 1; 
+  background-color: white; /* Example background color */
+  
+  padding: 20px;
+}
+
+/* The rest of your CSS remains the same */
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.sign_up {
+  color: white;
+  background: green;
+  border-radius: 3px;
+}
+
+.form {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.disp, .sign_in {
+  flex: 1;
+
+  padding: 10px;
+  border: 1px solid #000;
+}
+.sign-in-option {
+  display: flex; 
+  align-items: center; 
+  margin: 10px 0;
+  background-color: gold;
+}
+.disp{
+  border-bottom-right-radius:20px ;
+  border-top-right-radius: 20px;
+
+}
+.sign_in{
+  border-bottom-left-radius:20px ;
+  border-top-left-radius: 20px;
+}
